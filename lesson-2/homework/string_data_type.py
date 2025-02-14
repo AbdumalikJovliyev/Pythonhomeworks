@@ -1,15 +1,15 @@
 # 1. Create a program to ask name and year of birth from user and tell them their age.
 
-# name=input("Enter your name: ")
-# year=int(input("Enter your birth year: "))
-# print(f"{name} you are {2025-year} years old")
+name=input("Enter your name: ")
+year=int(input("Enter your birth year: "))
+print(f"{name} you are {2025-year} years old")
 
 
 # 2. Extract car names from this text:
 
 txt = 'LMaasleitbtui'
-car1=txt[0]+txt[2]+txt[4]+txt[6]+txt[8]+txt[10]+txt[12]
-car2=txt[1]+txt[3]+txt[5]+txt[7]+txt[9]+txt[11]
+car1=txt[::2]
+car2=txt[1::2]
 print(car1, car2)
  
 # 3. Write a Python program to:

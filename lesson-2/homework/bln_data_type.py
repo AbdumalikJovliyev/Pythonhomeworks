@@ -1,10 +1,10 @@
 # 1. Write a program that accepts a username and password and checks if both are not empty.
 usr=input()
 psw=input()
-if usr and psw:
+if usr.strip() and psw.strip():
     print("They are not empty")
 else: 
-    print("They are empty")
+    print("They are empty") 
 
 # 2. Create a program that checks if two numbers are equal and outputs a message if they are.
 
@@ -63,4 +63,3 @@ if n>=10 and n<=20:
     print("YES")
 else:
     print("NO")
-    
