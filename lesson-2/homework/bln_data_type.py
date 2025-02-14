@@ -42,7 +42,7 @@ else:
 # 6. Create a program that accepts a number and checks if it’s divisible by both 3 and 5.
 
 n=int(input())
- if n % 3 == 0 and n % 5 == 0:
+if n % 3 == 0 and n % 5 == 0:
     print("The number is divisible by both 3 and 5.")
 else:
     print("The number is not divisible by both 3 and 5.")
