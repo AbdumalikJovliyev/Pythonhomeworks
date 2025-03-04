@@ -1,0 +1,5 @@
+1002, Abbosjon Jovliyev, Dispatcher, 105000
+1003, Abdumalik, IELTS teacher, 100000
+1001, John, Software Engineer, 85000
+104, Asadbek, HR, 90000
+105, Zufar, manager, 140000 

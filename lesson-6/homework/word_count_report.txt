@@ -1,0 +1,8 @@
+Total words: 16
+
+Top 5 most common words:
+is: 3
+file: 3
+this: 2
+a: 2
+simple: 1
