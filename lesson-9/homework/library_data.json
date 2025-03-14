@@ -1,0 +1,22 @@
+{
+    "books": [
+        {
+            "title": "The Alchemist",
+            "author": "Paulo Coelo",
+            "is_borrowed": true
+        },
+        {
+            "title": "Murderer",
+            "author": "N/A",
+            "is_borrowed": false
+        }
+    ],
+    "members": [
+        {
+            "name": "Abdumalik",
+            "borrowed_books": [
+                "The Alchemist"
+            ]
+        }
+    ]
+}

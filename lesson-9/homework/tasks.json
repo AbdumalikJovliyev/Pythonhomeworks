@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "task": "Read a book",
+        "completed": false,
+        "priority": 2
+    },
+    {
+        "id": 2,
+        "task": "AE coursework",
+        "completed": false,
+        "priority": 1
+    }
+]
