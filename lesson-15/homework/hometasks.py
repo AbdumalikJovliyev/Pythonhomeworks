@@ -203,20 +203,3 @@ ax.legend()
 ax.grid(axis='y', linestyle='--', alpha=0.7)
 
 plt.show()
-
-
-
-
-
-categories = ['A', 'B', 'C']
-values1 = [10, 15, 7, 12]
-values2 = [5, 10, 3, 8]
-
-plt.bar(categories, values1, label='Dataset 1', color='blue')
-plt.bar(categories, values2, label='Dataset 2', color='green')
-
-plt.title('Stacked Bar Chart')
-plt.xlabel('Categories')
-plt.ylabel('Values')
-plt.legend()
-plt.show()
