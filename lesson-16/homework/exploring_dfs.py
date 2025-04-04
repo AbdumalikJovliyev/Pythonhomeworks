@@ -3,7 +3,6 @@
 #    - Rename the columns to lowercase.  
 #    - Select only the `sepal_length` and `sepal_width` columns.  
 
-# Load the iris.json file
 import pandas as pd
 import os
 os.chdir("c:/Users/acer nitro/OneDrive/Desktop/Data_science/Pythonhomeworks/lesson-16/homework/")
