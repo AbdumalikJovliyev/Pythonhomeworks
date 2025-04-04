@@ -25,6 +25,7 @@ print("\nMinimum age: ", minm)
 print("\nMaximum age: ", maxm)
 print("\nSum of passenger ages: ", summa)
 
+
 # - From **`movie.csv`**:  
 #     - Identify the director with the highest total `director_facebook_likes`.  
 #     - Find the 5 longest movies and their respective directors.  

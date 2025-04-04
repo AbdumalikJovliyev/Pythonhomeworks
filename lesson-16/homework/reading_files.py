@@ -30,12 +30,13 @@ print("The first 5 rows of the titanic.xlsx file: ", df_xlsl.head(5))
 flights=pd.read_parquet("data/flights")
 print(flights.info)
 
-# 5. **`movie.csv`**  
+# 5. **`movie.csv`**
+#   
 #    - Load the CSV file into a DataFrame and display a random sample of 10 rows.
 movies=pd.read_csv("data/movie.csv")
 print(movies.sample(10))
 
 
-# Extra html
-# df_riches=pd.read_html(r"http://en.wikipedia.org/wiki/The_World%27s_Billionaires")
-# print(df_riches)
+#Extra html task
+df_riches=pd.read_html(r"http://en.wikipedia.org/wiki/The_World%27s_Billionaires")
+print(df_riches)
