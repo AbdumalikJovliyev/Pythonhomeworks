@@ -48,5 +48,6 @@ missing_values = df_flights.isnull().sum()
 print("\nMissing values in each column:")
 print(missing_values)
 
+
 for numerical_column in df_flights.columns.values: 
     df_flights[numerical_column] = df_flights[numerical_column].fillna(df_flights[numerical_column].mean())
