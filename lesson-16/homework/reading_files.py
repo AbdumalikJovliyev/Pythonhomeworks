@@ -13,7 +13,6 @@ with sqlite3.connect(db_path) as connection:
     df_employee = pd.read_sql_query("SELECT * FROM customers", con=connection)
 print(df_employee.head(10))
 
-
 # 2. **`iris.json`**  
 #    - Load the JSON file into a DataFrame. Show the shape of the dataset and the column names.  
 

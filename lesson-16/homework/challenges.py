@@ -13,7 +13,6 @@ print("Mean for each numerical column:\n", mean_values)
 print("\nMedian for each numerical column:\n", median_values)
 print("\nStandard deviation for each numerical column:\n", std_values)
 
-
 # - From **`titanic.xlsx`**: Find the minimum, maximum, and sum of passenger ages.  
 df_titanic=pd.read_excel('data/titanic.xlsx')
 df_titanic['Age'] = df_titanic['Age'].fillna(0)  # Replace NaN with 0
