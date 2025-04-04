@@ -2,7 +2,6 @@
 import pandas as pd
 import os
 os.chdir("c:/Users/acer nitro/OneDrive/Desktop/Data_science/Pythonhomeworks/lesson-16/homework/")
-
 # - From **`iris.json`**: Calculate the mean, median, and standard deviation for each numerical column.  
 df_iris = pd.read_json("data/iris.json")
 mean_values = df_iris.mean(numeric_only=True)

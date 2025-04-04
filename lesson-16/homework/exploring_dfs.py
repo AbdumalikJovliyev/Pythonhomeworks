@@ -10,7 +10,6 @@ os.chdir("c:/Users/acer nitro/OneDrive/Desktop/Data_science/Pythonhomeworks/less
 df_iris = pd.read_json("data/iris.json")
 print(df_iris.columns.tolist())
 
-
 # Rename the columns to lowercase
 df_iris.columns = df_iris.columns.str.lower()
 # Select only the `sepallength` and `sepalwidth` columns

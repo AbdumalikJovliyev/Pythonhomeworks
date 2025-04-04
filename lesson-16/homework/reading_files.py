@@ -7,7 +7,6 @@ import pandas as pd
 import os
 os.chdir("c:/Users/acer nitro/OneDrive/Desktop/Data_science/Pythonhomeworks/lesson-16/homework/")
 
-
 db_path = os.path.abspath("data/chinook.db")  # Convert relative to absolute path
 with sqlite3.connect(db_path) as connection:
     df_employee = pd.read_sql_query("SELECT * FROM customers", con=connection)
