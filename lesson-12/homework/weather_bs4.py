@@ -97,4 +97,4 @@ print(f"Day(s) with 'Sunny' condition: {', '.join(sunny_days)}")
 #    - Compute and print the **average temperature** for the week.
 
 sum=sum(temp for day,temp,cond in weather_data) 
-print(round((sum/5),2))
+print(round((sum/5),2))  
